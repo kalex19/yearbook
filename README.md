@@ -11,8 +11,7 @@ The delete and add student functionality currently does not work.
 This app could be improved by being building all unit tests.
 
 ## Comp
-
-(finalproduct.png)
+![screenshot](screenshot.png)
 
 ## Final Product
-(screenshot.png)
+![finalproduct](finalproduct.png)
