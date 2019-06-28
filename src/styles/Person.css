@@ -1,0 +1,13 @@
+.photo {
+  width: 120px;
+  height: 100px;
+}
+
+.name {
+  text-decoration: underline;
+}
+
+.superlative {
+  background-color: #a29a5c;
+  padding: 2%;
+}

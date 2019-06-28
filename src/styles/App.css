@@ -4,23 +4,24 @@ html {
 }
 
 body {
-  background: url('https://ak9.picdn.net/shutterstock/videos/1007204479/thumb/1.jpg');
   background-size: cover;
   background-attachment: fixed;
+  overflow: auto;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  overflow: auto;
 }
 
 .App {
   text-align: center;
 }
 
-h1 {
-  background-color: rgba(255, 255, 255, 0.95);
+.siteTitle {
+  background-color: white;
+  color: orangered;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding: 10px;
-  color: limegreen;
+  width: 20%;
 }

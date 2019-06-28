@@ -1,0 +1,16 @@
+.cardContainer {
+  border: 5px orangered dotted;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  height: auto;
+  margin: 3%;
+  padding: 5%;
+}
+
+.card {
+  background-color: #151030;
+  color: #fff;
+  margin: 3% 15%;
+  padding: 5%;
+  width: 40%;
+}

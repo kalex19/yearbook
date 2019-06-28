@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/element5-digital-352043-unsplash.jpg');
+  box-sizing: border-box;
 }
 
 code {
