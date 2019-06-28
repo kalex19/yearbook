@@ -12,7 +12,7 @@ This app could be improved by being building all unit tests.
 
 ## Comp
 
-('assets/finalproduct.png')
+(finalproduct.png)
 
 ## Final Product
-('assets/screenshot.png')
+(screenshot.png)
