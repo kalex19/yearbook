@@ -1,0 +1,23 @@
+.title {
+  color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.studentForm {
+  display: flex;
+  justify-content: space-around;
+}
+
+.studentForm input {
+  border: orangered solid 2px;
+  font-size: 1em;
+  height: 30px;
+  text-align: center;
+  width: 15%;
+}
+
+.submitBtn {
+  background-color: orangered;
+  height: 40px;
+  width: 15%;
+}
