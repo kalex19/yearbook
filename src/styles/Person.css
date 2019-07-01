@@ -11,3 +11,11 @@
   background-color: #a29a5c;
   padding: 2%;
 }
+
+.card {
+  background-color: #151030;
+  color: #fff;
+  margin: 3% 15%;
+  padding: 5%;
+  width: 40%;
+}

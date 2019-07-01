@@ -19,14 +19,18 @@ class App extends Component {
 		});
 	};
 
-	deleteStudent = id => {
+	deleteStudent = (id, category) => {
 		const { students, staff } = this.state;
-		this.setState = {
-			students: students.filter(student => student.id !== id),
-			staff: staff.filter(member => member.id !== id)
-		};
+		if (category === 'staff') {
+			this.setState({
+				staff: staff.filter(member => member.id !== id)
+			});
+		} else {
+			this.setState({
+				students: students.filter(student => student.id !== id)
+			});
+		}
 	};
-	//id for staff vs student or deleteStaff fn
 
 	render() {
 		return (
