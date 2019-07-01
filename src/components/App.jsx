@@ -20,9 +20,10 @@ class App extends Component {
 	};
 
 	deleteStudent = id => {
-		const { students } = this.state;
+		const { students, staff } = this.state;
 		this.setState = {
-			students: students.filter(student => student.id !== id)
+			students: students.filter(student => student.id !== id),
+			staff: staff.filter(member => member.id !== id)
 		};
 	};
 	//id for staff vs student or deleteStaff fn
