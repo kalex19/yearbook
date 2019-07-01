@@ -7,7 +7,7 @@ This app was built using react and a small dataset. The app is a yearbook of sta
 This app could be improved by completing the delete functionality.
 
 ## Comp
-![screenshot](screenshot.png)
+![screenshot](/assets/screenshot.png)
 
 ## Final Product
-![finalproduct](finalproduct.png)
+![finalproduct](/assets/finalproduct.png)
