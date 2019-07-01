@@ -21,11 +21,11 @@ class App extends Component {
 
 	deleteStudent = id => {
 		const { students } = this.state;
-		const person = students.filter(student => student.id !== id);
 		this.setState = {
-			students: person
+			students: students.filter(student => student.id !== id)
 		};
 	};
+	//id for staff vs student or deleteStaff fn
 
 	render() {
 		return (

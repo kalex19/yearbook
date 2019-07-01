@@ -22,8 +22,8 @@ export class Form extends Component {
 		e.preventDefault();
 		const newStudent = {
 			...this.state,
-			id: Date.now(),
-			key: Date.now()
+			photo: this.state.photo || 'https://placekitten.com/200/300',
+			id: Date.now()
 		};
 		this.props.addStudent(newStudent);
 		this.clearInputs();
@@ -42,38 +42,24 @@ export class Form extends Component {
 		return (
 			<div className="studentContainer">
 				<h1 className="title">Welcome to the New Student!</h1>
-				<form className="studentForm">
-					<input
-						type="text"
-						placeholder="name"
-						name="name"
-						value={this.state.name}
-						onChange={e => this.handleChange(e)}
-					/>
+				<form className="studentForm" onSubmit={this.submitInput}>
+					<input type="text" placeholder="name" name="name" value={this.state.name} onChange={this.handleChange} />
 					<input
 						type="text"
 						placeholder="photo url"
 						name="photo"
 						value={this.state.photo}
-						onChange={e => this.handleChange(e)}
+						onChange={this.handleChange}
 					/>
-					<input
-						type="text"
-						placeholder="quote"
-						name="quote"
-						value={this.state.quote}
-						onChange={e => this.handleChange(e)}
-					/>
+					<input type="text" placeholder="quote" name="quote" value={this.state.quote} onChange={this.handleChange} />
 					<input
 						type="text"
 						placeholder="superlative"
 						name="superlative"
 						value={this.state.superlative}
-						onChange={e => this.handleChange(e)}
+						onChange={this.handleChange}
 					/>
-					<button className="submitBtn" onSubmit={e => this.submitInput(e)}>
-						Submit
-					</button>
+					<input type="submit" className="submitBtn" />
 				</form>
 			</div>
 		);
